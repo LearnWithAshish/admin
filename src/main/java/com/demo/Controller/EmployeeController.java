@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/Employee")
 public class EmployeeController {
+	
+ public void name() {
+	System.out.println("new method is added in tthe controller class");
+}
 	@GetMapping("/get")
 	public int getString () {
 		int temp;
